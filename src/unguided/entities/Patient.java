@@ -35,20 +35,12 @@ public class Patient {
         return diagnosisCount;
     }
 
-    public void setPatientId(String patientId) {
-        this.patientId = patientId;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public void setDiagnosis(String diagnosis) {
-        this.diagnosis = diagnosis;
     }
 
     @Override
