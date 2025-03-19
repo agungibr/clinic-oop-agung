@@ -23,18 +23,6 @@ public class Doctor {
         return specialization;
     }
 
-    public void setDoctorId(String doctorId) {
-        this.doctorId = doctorId;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setSpecialization(String specialization) {
-        this.specialization = specialization;
-    }
-
     @Override
     public String toString() {
         return """
