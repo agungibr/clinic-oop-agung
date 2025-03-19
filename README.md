@@ -65,6 +65,11 @@ This is a utility class used for data validation. It contains three static metho
 - `isValidDiagnosis(String)` ensures the diagnosis is not empty or null.
 - `isValidAppointmentId(String)` validates the format of the appointment ID (e.g., "APT-001").
 
+### 5. How the Classes Work Together
+- The `Appointment` class links a `Doctor` and a `Patient`, creating a relationship between them.
+- The `DataChecker` class ensures that the data entered for patients and appointments is valid, maintaining the integrity of the system
+- The `Patient` class tracks the total number of diagnoses using a static variable (`diagnosisCount`), providing a simple way to monitor clinic statistics. 
+
 ## 🌟 Output
 ```
 ===== Clinic Management System =====
